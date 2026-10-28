@@ -1,0 +1,51 @@
+# ── Python bytecode ──────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Environment variables ─────────────────────────────────────────────────────
+.env
+.env.*
+
+# ── Build / packaging ─────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Project data (keep README) ────────────────────────────────────────────────
+data/*.csv
+!data/README.md
+
+# ── Generated results (keep placeholder) ─────────────────────────────────────
+results/*.png
+results/*.pdf
+results/*.svg
+!results/RESULTS.md
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# ── macOS / Windows system files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── MLflow ───────────────────────────────────────────────────────────────────
+*.mlruns/
+mlruns/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
